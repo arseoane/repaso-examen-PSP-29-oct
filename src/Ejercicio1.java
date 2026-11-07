@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class Main {
+public class Ejercicio1 {
     public static void main(String[] args) throws InterruptedException {
         Thread h3 = new Thread(new Hilo(), "Hilo 3");
         Thread h2 = new Thread(new Hilo(), "Hilo 2");
